@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href=".\QR\images\favicon-32x32.png">
+    <title>Frontend Mentor | QR code</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --white: hsl(0, 0%, 100%); /* branco*/
+            --light-gray: hsll(212, 45%, 89%);  /* cinza claro */ 
+            --gravish-blue: hsl(212, 45%, 89%);
+            --dark-blue: hsl(218, 44%, 22%);
+        }
+        body {
+            background-color: var(--light-gray);
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            height: 100vh;
+        }
+        .card {
+            margin-left: auto;
+            margin: auto;
+            align-items: center;
+            background-color: var(--white);
+            border-radius: 1.5rem;
+            padding: 2rem;
+            max-width: 350px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+        .card h1 {
+            color: var(--dark-blue);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 1rem 0;
+        }
+        .card p {
+            color: var(--gravish-blue);
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+        .attribution { font-size: 11px; text-align: center; margin-bottom: auto;}
+        .attribution a { color: hsl(212, 45%, 44%); }
+    </style>
+</head>
+<body style="background-color: rgb(204, 194, 204);">
+    <div class="card">
+        <img src=".\images\image-qr-code.png">
+        <h1>Melhore suas habilidades de front-end criando projetos</h1>
+        <p>Escaneie o código QR para visitar o Frontend Mentor e leve suas habilidades de codificação para o próximo nível</p>
+    </div>
+    <div class="attribution">
+        Codificado por: <a href="https://github.com/httpsLucasalex" target="_blank">Lucas Alexsandro</a>
+    </div>
+</body>
+</html>
